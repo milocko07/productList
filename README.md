@@ -1,8 +1,9 @@
 To run the app when it is downloaded:
 
 $ npm install
-$ npm start
 
+$ npm start
+----------------------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
