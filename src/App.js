@@ -6,7 +6,7 @@ import Client from './components/client';
 import Contact from './components/contact';
 
 /**
- * Enter point of the application.
+ * Entering point of the application.
  **/
 class App extends Component {
 
@@ -19,7 +19,7 @@ render() {
           </div>
       </div>
       <footer>
-        Version 1.4.2
+        Version 1.4.3
       </footer>
   </div>
   );
