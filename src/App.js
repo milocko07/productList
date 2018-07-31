@@ -5,24 +5,30 @@ import Product from './components/products/product';
 import Client from './components/client';
 import Contact from './components/contact';
 
+/**
+ * Enter point of the application.
+ **/
 class App extends Component {
-  render() {
-    return ( 
 
-    <div id="wrapper">
-
-        <div id="main">
-						<div class="inner">
-           
-            <Navigation />
-
-            </div>
-        </div>
+render() {
+  return ( 
+  <div id="wrapper">
+      <div id="main">
+          <div class="inner">
+          <Navigation />
+          </div>
       </div>
-      );
+      <footer>
+        Version 1.4.2
+      </footer>
+  </div>
+  );
   }
 }
 
+/**
+* Set the menu of the application.
+**/
 const Navigation = () => (
 <Router>
   <div>

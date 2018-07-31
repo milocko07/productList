@@ -57,7 +57,7 @@ export default class ProductList extends React.Component {
 const RenderProduct = ({ id, name, description, photo, stock, price }) => (
     
     <div>
-      <span class="image main"><img class="image main" src={photo} alt=""/></span>  
+      <span class="image main"><img id={id} class="image main" src={photo} alt=""/></span>  
         <p>
         <b>{name}</b>: {description}
         </p>

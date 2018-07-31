@@ -28,7 +28,7 @@ setCategoryToShow(category) {
 
 componentWillMount() {
 
-this.bindDataModel();
+  this.bindDataModel();
   
 }
 
@@ -106,5 +106,10 @@ const SetCategoryList = (categoriesList, setCategory, categorytoShow, products) 
 );
 
 Product.propTypes = {
-  // categories: PropTypes.string
+  products: PropTypes.element.isRequired,
+  products: PropTypes.array,
+  categories: PropTypes.element.isRequired,
+  categories: PropTypes.element.string,// intentionally marked as an invalid type of property only to show test the error,
+  categorytoShow: PropTypes.element.isRequired,
+  categorytoShow: PropTypes.string
 };
